@@ -1,6 +1,8 @@
 // creates the team
 const generateTeam = team => {
+ console.log("Team"); // testpoint
 
+ 
     // creates the manager html
     const generateManager = manager => {
         return `

@@ -33,6 +33,10 @@ As a manager a user want to generate a webpage that displays my team's basic inf
       * `getSchool()`
       * `getRole()`&mdash;overridden to return `'Intern'`
     * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.   
+--------------------------------------------------------------------------------
+
+
+
   * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints.
     * When a user starts the application then they are prompted to enter the **team manager**’s:
       * Name
