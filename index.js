@@ -187,7 +187,7 @@ return inquirer.prompt ([
 
 
     {
-        type:'imput',
+    type:'imput',
     name:'name',
     message: 'Please add yor team member name (Required)',
     validate: nameImput => {
@@ -247,9 +247,9 @@ return inquirer.prompt ([
 
 
 ]).then(answers => {
-    const Engineer  = new Engineer (answers.name, answers.employeID, answers.email, answers.gitHub );
+    const engineer  = new Engineer (answers.name, answers.employeID, answers.email, answers.gitHub );
    
-    teamMembers.push(Engineer);
+    teamMembers.push(engineer);
     promptMenu();
     })
 
@@ -320,8 +320,8 @@ return inquirer.prompt ([
 
 
             ]).then(answers => {
-                const Intern  = new Intern (answers.name, answers.employeID, answers.email, answers.School  );
-                teamMembers.push(Intern);
+                const intern  = new Intern (answers.name, answers.employeID, answers.email, answers.School  );
+                teamMembers.push(intern);
                 promptMenu();
                 })
             
