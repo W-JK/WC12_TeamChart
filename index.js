@@ -15,65 +15,6 @@ const render = require("./src/page-template.js");
 
 const teamMembers =[];
 
-/* -------------- Employe builder template ---------------
-        {
-                type:'imput',
-            name:'name',
-            message: 'Please add yor team member - ... (Required)',
-            validate: nameImput => {
-                if(nameImput) {
-                    return true;
-                 }else {
-                    console.log('... name is required. Please enter one.')
-                    return false;
-                 }}
-            
-        },
-
-         {
-            type:'imput',
-            name:'employeID',
-            message: 'Please enter your Emplye ID (Required)',
-            validate: nameImput => {
-                if(nameImput) {
-                    return true;
-                 }else {
-                    console.log('Emplye ID is required. Please enter one.')
-                    return false;
-                 }}
-
-        },
-
-        {
-            type: 'imput',
-            name: 'email',
-            message: 'Please enter Team member email address(Reaquired)',
-                validate: email =>{
-                if (email){
-                    return true;
-                } else {
-                    console.log('Email address is required. Please enter one');
-                    return false;
-                }}
-        },
-
-
-        -----------------------------------------------------
-        ]).then(answers => {
-    const ...position..  = new ...position... (answers.name, answers.employeID, answers.email, ...additional details... );
-    teamMembers.push(...position...);
-    promptMenu();
-    })
-
-
-
-};
-
-*/
-
-
-
-
 
 // --------------------------------- Manager Details -------------------------------------------------------
 const promptManager = () => {
@@ -330,11 +271,9 @@ return inquirer.prompt ([
             // ------------------- team members end -------------------------- 
 
             const buildTeam = () => {
-                console.log ('Great! Your Team is ready for chalenge.');
-
-      
-   // fs.writeFileSync(outputPath,render(teamMembers),"UFT" ) }          
-            
+                console.log ('Great! Your Team is ready for chalenge.');    
+        
+           
    
 
 // ----------------------------------------------------------------------------------------------
