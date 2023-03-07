@@ -198,9 +198,9 @@ return inquirer.prompt ([
             return false;
          }}
     
-},
+    },
 
- {
+    {
     type:'imput',
     name:'employeID',
     message: 'Please enter your Emplye ID (Required)',
@@ -212,9 +212,9 @@ return inquirer.prompt ([
             return false;
          }}
 
-},
+    },
 
-{
+    {
     type: 'imput',
     name: 'email',
     message: 'Please enter Team member email address(Reaquired)',
@@ -225,10 +225,10 @@ return inquirer.prompt ([
             console.log('Email address is required. Please enter one');
             return false;
         }}
-},
+    },
 
 
-{
+    {
     type: 'imput',
     name: 'gitHub',
     message: 'Please enter Team member GitHub username(Reaquired)',
@@ -239,7 +239,7 @@ return inquirer.prompt ([
             console.log('GitHub username is required. Please enter one');
             return false;
         }}
-},
+    },
 
 
 
@@ -248,11 +248,12 @@ return inquirer.prompt ([
 
 ]).then(answers => {
     const Engineer  = new Engineer (answers.name, answers.employeID, answers.email, answers.gitHub );
+   
     teamMembers.push(Engineer);
     promptMenu();
     })
 
-};
+    };
 
            // ----------------- add Intern -----------------------
            const promptIntern = () => {
