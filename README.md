@@ -31,7 +31,7 @@ https://github.com/W-JK/WC12_TeamChart.git
 https://user-images.githubusercontent.com/118207811/226105887-c48103b8-5542-4f54-9126-382fc699c556.mp4
 
 
-### High Resolution Demo 
+### High Resolution Demo Download
 
 [![High Resolution Demo](./assets/Demo%20thumbial.png)](./assets/WC12_TeamChart%20walktrough%20_Trim.mp4)
 
