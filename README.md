@@ -27,7 +27,7 @@ https://github.com/W-JK/WC12_TeamChart.git
 
 ## Markdown Demo 
 
-[!Markdown-Demo](./assets/WC12_TeamChart%20walktrough%20.mp4)
+![Markdown- Walktrough Demo](./assets/WC12_TeamChart%20walktrough%20.mp4)
 
 
 ## Credits
