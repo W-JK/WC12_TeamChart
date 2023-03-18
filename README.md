@@ -25,6 +25,11 @@ https://github.com/W-JK/WC12_TeamChart.git
 ![Terminal with visible web](./assets/LiveSite%20with%20Terminal%20Output.JPG)
 
 
+## Markdown Demo 
+
+[!Markdown-Demo](./assets/WC12_TeamChart%20walktrough%20.mp4)
+
+
 ## Credits
 
 © 2022 edX Boot Camps LLC.
@@ -33,6 +38,7 @@ https://nodejs.org/
 https://www.npmjs.com/package/inquirer
 https://fontawesome.com/icons 
 https://getbootstrap.com/
+walktrough video taken with xbox gamebar app
 
 ## License 
 
